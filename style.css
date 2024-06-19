@@ -1,0 +1,122 @@
+body {
+  background-image: url("BG.png");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+#game-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: 100vh;
+  margin: 50px auto;
+}
+
+#map {
+  width: 100%;
+  height: auto;
+}
+
+#character {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.location {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: blue;
+}
+.location .location3 {
+  margin-top: 20px;
+}
+.locked {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  cursor: not-allowed;
+  width: 50px;
+  height: 50px;
+}
+
+#location1 {
+  top: 20%;
+  left: 30%;
+}
+#location2 {
+  top: 50%;
+  left: 60%;
+}
+#location3 {
+  top: 70%;
+  left: 20%;
+}
+#location4 {
+  top: 40%;
+  left: 80%;
+}
+.form-check {
+  position: relative;
+  display: inline-block;
+  padding-left: 1.25rem;
+}
+.question {
+  margin-bottom: 20px;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-content {
+  background-color: #0f1720;
+}
+p {
+  background-color: black;
+  margin-top: 0;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 18px;
+  border-radius: 16px;
+}
+.modal-body {
+  padding: 1rem 2rem;
+}
+.form-check {
+  position: relative;
+  display: inline-block;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  width: 137px;
+  background-color: black;
+  margin: 5px 37px 2px 15px;
+}
+.btn {
+  color: #ffffff;
+  width: 126px;
+  background-color: black;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  box-shadow: inset 0px 0px 2px #fff;
+  margin-bottom: 20px;
+}
+
+.modal-content {
+  background-color: #0f1720;
+  box-shadow: inset 0px 0px 2px #fff;
+}
+.modal-header {
+  padding: 12px !important;
+}
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+#active {
+  background-color: aqua;
+}
